@@ -16,13 +16,13 @@ var query = require('samp-query');
 //@audit Settings
 
 const botChar = "/"; // Bot prefix character
-let Samp_IP = "51.178.138.254";
-let Samp_Port = 7777;
+let Samp_IP = "20.249.83.254";
+let Samp_Port = 7776;
 let Community_Tag ="WG";
 
-let userToSubmitApplicationsTo = '710195458680684695';//Default Channel Id for User Applications
-let reportChannelID = '714432112031170562'; // Channel for the ingam reports
-let adminCmdsChannelID = '710195250911641741'; // Admin Cmds channel
+let userToSubmitApplicationsTo = '1020361247306301528';//Default Channel Id for User Applications
+let reportChannelID = '1020361248635887761'; // Channel for the ingam reports
+let adminCmdsChannelID = '1020361247981572119'; // Admin Cmds channel
 let Bot_debug_mode = false;
 
 //_______________________________[APPLICATIONS]______________________________________________
@@ -715,6 +715,6 @@ client.on('message', msg => {
 
 //====================== BOT TOKEN FROM ENV VAIABLE ===================================
 
-client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
+client.login("MTAxNDE3NDc5Njg1MTk3MDA5OQ.GxUhxr.1R_nLZa53XYUViWRfeP7oSy-rl2Zg8Y2rXmjsw");//BOT_TOKEN is the Client Secret
 
 //=====================================================================================
